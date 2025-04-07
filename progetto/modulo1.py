@@ -1,7 +1,9 @@
 def funzione_doppio(x):
     """Questa funzione restituisce il doppio del argomento passato alla funzione"""
     # TODO: Implementare la funzione per restituire il doppio di x
-    pass
+    z = 2*x
+    print(z)
+    return z
 
 def funzione_quadrato(y):
     """
@@ -9,11 +11,12 @@ def funzione_quadrato(y):
     Completa l'implementazione.
     """
     # TODO: Implementare la funzione per restituire il quadrato di y
-    pass
+    return y*y
 
 class ClasseParzialmenteImplementata:
     def __init__(self, nome):
         self.nome = nome
+        self.valore = 13
 
     def metodo_esistente(self):
         return f"Ciao, sono {self.nome}!"
@@ -24,4 +27,5 @@ class ClasseParzialmenteImplementata:
         e restituire il nuovo valore.
         """
         # TODO: Implementare l'aggiunta del valore e la restituzione
-        pass
+        y = self.valore + valore
+        return f"Ciao, il mio numero fortunato è {y} !"
